@@ -38,7 +38,12 @@ body {
     text-decoration: none;
    
 }
-
+.category-grid{
+    padding: 25px;
+}
+.category-grid h1{
+    padding: 25px;
+}
 /* Product Grid */
 .product-grid {
     display:flex;
@@ -218,6 +223,15 @@ body {
   .product-button.added-to-cart {
     background-color: grey; /* Grey when product is added */
   }
+
+  .product-cost{
+      color:red
+  }
+.product-description{
+    color: rgb(70,70,70);
+    margin-top: 10px;
+    margin-bottom: 10px
+}
   @media (max-width: 1200px) {
     .product-card {
       flex: 1 1 calc(33.33% - 20px); /* Adjust width for 3 cards per row with 20px gap on medium screens */

@@ -1,8 +1,5 @@
 .about-us-container {
-    width: 1000px;
-    /* margin: 0 auto; */
-    /* padding: 20px; */
-    /* background-color: red; */
+    max-width: 850px;
     text-align: justify;
   }
   
@@ -14,10 +11,11 @@
   }
   
   .about-us-description {
-    font-size: 18px;
+    font-size: 20px;
+    font-weight: bolder;
     color: #666;
     margin-bottom: 30px;
-    text-align: center;
+    text-align: start;
   }
   
   .about-us-content {
